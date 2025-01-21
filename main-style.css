@@ -1,0 +1,47 @@
+.nav-buttons{
+    position: fixed;
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    display: flex;
+    gap: 10px; /* Spacing between buttons */
+  }
+  
+
+  .button-class {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .button-class:hover {
+    background-color: #0056b3;
+  }
+
+  .name{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+  }
+
+  h1 {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .portrait{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%
+  }
+
+  .main{
+    margin-left: 10%;
+    margin-right: 10%
+  }
