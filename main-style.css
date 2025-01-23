@@ -1,3 +1,7 @@
+body{
+  background: linear-gradient(to right, #007BFF, #6C757D);
+}
+
 .nav-buttons{
     position: fixed;
     top: 10px; /* Distance from the top */
@@ -27,6 +31,8 @@
     top: 10px;
     left: 10px;
     margin: 0;
+    font-size: 50px;
+    color:black;
   }
 
   h1 {
@@ -44,4 +50,20 @@
   .main{
     margin-left: 10%;
     margin-right: 10%
+  }
+
+  .hero {
+    height: 100vh;
+    background: linear-gradient(to right, #007BFF, #6C757D);
+    color: white;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding-top: 15%;
+  }
+
+  .hero-content h1{
+    font-size: 50px;
   }
