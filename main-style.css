@@ -1,5 +1,10 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background: linear-gradient(to right, #007BFF, #6C757D);
+  margin: 0;
 }
 
 .nav-buttons{
@@ -36,7 +41,7 @@ body{
   }
 
   h1 {
-    margin-top: 100px;
+    margin-top: 0;
     text-align: center;
   }
 
@@ -59,11 +64,51 @@ body{
     outline: none;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center; 
     text-align: center;
-    padding-top: 15%;
   }
 
   .hero-content h1{
     font-size: 50px;
+  }
+
+  .hero-content p{
+    font-size: 30px;
+  }
+
+  .go-next-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .go-next-button:hover {
+      background-color: #0056b3; /* Hover color */
+  }
+
+  #about-me-div{
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    background-color: #E8F0F2;
+    color: #2C3E50;
+    outline: none;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+  }
+
+  #about-me-div p{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: left;
+    font-size: larger;
   }
