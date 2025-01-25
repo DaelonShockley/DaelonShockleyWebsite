@@ -13,10 +13,17 @@
         margin-bottom: 5px;
     }
     
+    .date{
+        position: absolute;
+        top: 5%;
+        right: 20px;
+    }
+
     .nav-buttons{
     position: fixed;
     top: 10px; /* Distance from the top */
     right: 10px; /* Distance from the right */
+    z-index: 1000;
     display: flex;
     gap: 10px; /* Spacing between buttons */
   }
@@ -41,6 +48,7 @@
     top: 10px;
     left: 10px;
     margin: 0;
+    z-index: 1000;
     font-size: 50px;
     color:black;
   }
@@ -96,7 +104,7 @@
     margin-right: auto;
     position: relative;
     width: 70.25%;
-    top: 11%;
+    top: 10.5%;
   }
 
   .skills-inner{
@@ -112,4 +120,83 @@
     margin-top: 1%;
   }
 
-  
+  /*professional experience section*/
+  .professional{
+    background-color: powderblue;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: left;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 11.5%;
+    text-align: left;
+    border-radius: 15px;
+    padding-left: 10px;
+  }
+
+  .professional h1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .huhtamaki{
+    background-color: powderblue;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: left;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 12.5%;
+    text-align: left;
+    border-radius: 15px;
+    padding-left: 10px;
+  }
+
+  .EaglePicher{
+    background-color: powderblue;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: left;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 13.5%;
+    text-align: left;
+    border-radius: 15px;
+    padding-left: 10px;
+  }
+
+  .EP-list{
+    margin-top: 0;
+  }
+
+  .EaglePicher p{
+    bottom: 0;
+    margin-bottom: 0;
+  }
+
+  /*education section*/
+  .education{
+    background-color: powderblue;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: left;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 14.5%;
+    text-align: left;
+    border-radius: 15px;
+    padding-left: 10px;
+  }
+
+  .education h1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
