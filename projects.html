@@ -1,0 +1,54 @@
+<html lang="en">
+    <head>
+        <link href="projects-style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--Top right navigation buttons--> 
+        <div class="nav-buttons">
+            <a href="main.html#about%20me" class="button-class">About Me</a>
+            <a href="resume.html" class="button-class">Resume</a>
+            <a href="projects.html" class="button-class">Projects</a>
+            <a href="hobbies.html" class="button-class">Hobbies</a>
+            <a href="contact.html" class="button-class">Contact</a>
+        </div>
+        <!--name top left-->
+        <div>
+            <h1 class="name">Daelon Shockley</h1>
+        </div>
+        <section class="header">
+            <h1>Projects</h1>
+            <p>One of my favorite ways to learn and practice my skills is to develop projects. I've listed a couple of my favorites here, for more check out 
+                <a href="https://github.com/DaelonShockley" target="_blank">github.com/DaelonShockley</a></p>
+        </section>
+        <section class="project shadow">
+            <h1>CypherStore: Password Generation and Storage App</h1>
+            <p>CypherStore is a simple and secure password management application which allows users to generate secure passwords, as well as store and encrypt their login
+                information locally. This application features AES encryption to allow secure storage of login information on device. Passwords are generated using a secure 
+                RNG algorithm, ensuring that it's impossible to recreate your passwords. <br><br>
+                <b> Goals: </b>Refresh my C# and Visual Studio Skills, Learn about implementing encryption, Create a handy password storage application for personal use. <br>
+                <b>Technologies Used: </b> C#.NET, Windows Forms, Visual Studio, AES, CPRNG <br>
+                <a href="https://github.com/DaelonShockley/CypherStore" target="_blank">Github</a>
+            </p>
+        </section>
+        <section class="project shadow">
+            <h1>Professional/Portfolio Website</h1>
+            <p>That's right, the website you're reading right now is a project of mine. This website is written entirely in raw HTML and CSS (not counting about 10 lines of javascript for some effects)
+                I decided to make this website to practice my newly learning HTML/CSS skills, to present myself in a way that's a bit different from a simple resume, and ultimately because I thought it would
+                be fun<br><br>
+                <b> Goals: </b>Practice HTML/CSS, Create a self-presentation more interesting than a simple resume <br>
+                <b>Technologies Used: </b> HTML, CSS <br>
+                <a href="https://github.com/DaelonShockley/DaelonShockleyWebsite" target="_blank">Github</a>
+            </p>
+        </section>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const sections = document.querySelectorAll("section");
+                sections.forEach((section, index) => {
+                    setTimeout(() => {
+                        section.classList.add("visible");
+                    }, index * 300); // Delay each section by 500ms
+                });
+            });
+        </script>
+    </body>
+</html>
