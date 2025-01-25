@@ -1,0 +1,79 @@
+body{
+    background-color: #E8F0F2;
+    padding-bottom: 400px;
+}
+
+a{
+    color: #007BFF;
+}
+
+a:hover{
+    color: rgb(83, 168, 197);
+}
+
+.nav-buttons{
+    position: fixed;
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    z-index: 1000;
+    display: flex;
+    gap: 10px; /* Spacing between buttons */
+  }
+  
+  .button-class {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .button-class:hover {
+    background-color: #0056b3;
+  }
+
+  .name{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+    z-index: 1000;
+    font-size: 50px;
+    color:black;
+  }
+
+  .header{
+    background-color: #E0DCDC;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: left;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 6%;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 15px;
+    padding-left: 10px;
+  }
+
+  .header h1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .link{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  .link p{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+  }
