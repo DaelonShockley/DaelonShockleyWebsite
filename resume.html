@@ -15,7 +15,7 @@
         <div>
             <h1 class="name">Daelon Shockley</h1>
         </div>
-        <section class="objective">
+        <section class="objective shadow">
             <h1>Objective:</h1>
             <p>Aspiring software engineer with a strong foundation in programming, application development, and problem solving. 
                 Recently graduated magna cum laude with a B.S. in Computer Engineering. Skilled in C#, C++, JavaScript, Python, 
@@ -29,12 +29,12 @@
 
             </p>
         </section>
-        <section class="skills">
+        <section class="skills shadow">
             <h1>Skills:</h1>
             <p>I'm always working to broaden my skill set, here's what I've learned so far.</p>
         </section>
         <section class="skills-container">
-            <section class="skills-inner">
+            <section class="skills-inner shadow">
                 <h2>Programming</h2>
                 <ul>
                     <li>C#</li>
@@ -55,7 +55,7 @@
                     <li>Microchip Studio</li>
                 </ul>
             </section>
-            <section class="skills-inner">
+            <section class="skills-inner shadow">
                 <h2>Security</h2>
                 <ul>
                     <li>Wireshark</li>
@@ -73,7 +73,7 @@
                     <li>Breadboard</li>
                 </ul>
             </section>
-            <section class="skills-inner">
+            <section class="skills-inner shadow">
                 <h2>Professional</h2>
                 <ul>
                     <li>Communication</li>
@@ -85,11 +85,11 @@
                 </ul>
             </section>
         </section>
-        <section class="professional">
+        <section class="professional shadow">
             <h1>Professional Experience:</h1>
             <p>I'm lucky enough to have had the oppurtunity to complete two internships, here's what I accomplished. </p>
         </section>
-        <section class="huhtamaki">
+        <section class="huhtamaki shadow">
             <h2>Huhtamaki North America</h2>
             <i>Applications Developer Intern</i> <h2 class = "date">May 2024 - Aug 2024</h2>
             <p>At Huhtamaki I developed a web application for organizing case-level labels printed on Huhtamaki production floors. 
@@ -106,7 +106,7 @@
                 to the team.
             </p>
         </section>
-        <section class="EaglePicher">
+        <section class="EaglePicher shadow">
             <h2>EaglePicher Technologies</h2>
             <i>Computer Engineering Intern</i> <h2 class="date">May 2023 - Aug 2024</h2>
             <p>
@@ -136,7 +136,7 @@
                 </li>
             </ul>
         </section>
-        <section class="education">
+        <section class="education shadow">
             <h1>Missouri University of Science and Technology</h1>
             Rolla, MO <br>
             <i>B.S. Computer Engineering</i> <h2 class="date">December 2024</h2> 
@@ -146,5 +146,15 @@
                 <li>Kummer Vanguard Scholar</li>
             </ul>
         </section>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const sections = document.querySelectorAll("section");
+                sections.forEach((section, index) => {
+                    setTimeout(() => {
+                        section.classList.add("visible");
+                    }, index * 500); // Delay each section by 500ms
+                });
+            });
+        </script>
     </body> 
 </html>
