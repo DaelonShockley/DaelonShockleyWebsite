@@ -94,7 +94,7 @@
     margin-right: auto;
     margin-left: auto;
     position: relative;
-    top: 10%;
+    margin-top: 100px;
     text-align: left;
     border-radius: 15px;
     padding-left: 10px;
@@ -114,8 +114,7 @@
     align-items: left;
     margin-right: auto;
     margin-left: auto;
-    position: relative;
-    top: 11.5%;
+    margin-top: 10px;
     text-align: left;
     border-radius: 15px;
     padding-left: 10px;
@@ -135,7 +134,7 @@
     margin-right: auto;
     position: relative;
     width: 70.25%;
-    top: 10.5%;
+    margin-top: 10px;
   }
 
   .skills-inner{
@@ -148,7 +147,7 @@
     text-align: left;
     border-radius: 15px;
     padding-left: 10px;
-    margin-top: 1%;
+    margin-top: 0px;
   }
 
   /*professional experience section*/
@@ -161,7 +160,7 @@
     margin-right: auto;
     margin-left: auto;
     position: relative;
-    top: 11.75%;
+    margin-top: 10px;
     text-align: left;
     border-radius: 15px;
     padding-left: 10px;
@@ -181,7 +180,7 @@
     margin-right: auto;
     margin-left: auto;
     position: relative;
-    top: 12.75%;
+    margin-top: 10px;
     text-align: left;
     border-radius: 15px;
     padding-left: 10px;
@@ -196,7 +195,7 @@
     margin-right: auto;
     margin-left: auto;
     position: relative;
-    top: 13.75%;
+    margin-top: 10px;
     text-align: left;
     border-radius: 15px;
     padding-left: 10px;
@@ -221,7 +220,7 @@
     margin-right: auto;
     margin-left: auto;
     position: relative;
-    top: 14.75%;
+    margin-top: 10px;
     text-align: left;
     border-radius: 15px;
     padding-left: 10px;
