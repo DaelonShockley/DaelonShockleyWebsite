@@ -70,14 +70,21 @@ section{
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
+    align-items: center; /* Center-align the header content */
+    text-align: center; /* Center-align text */
+    background-color: #F4F9FC; /* Subtle background color */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding-left: 10px;
   }
 
   .header h1{
     font-size: 40px;
     margin-bottom: 0;
+    margin-top: 10px;
   }
 
   .project{

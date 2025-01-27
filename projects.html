@@ -20,6 +20,23 @@
                 <a href="https://github.com/DaelonShockley" target="_blank">github.com/DaelonShockley</a></p>
         </section>
         <section class="project shadow">
+            <h1>Genetic Algorithm Simulation of the Stochastic Iterated Prisoner's Dilemma</h1>
+            <p>This project utilizes a genetic algorithm to mimic natural selection across a population of player objects competing against each other in an 
+                iterated prisoner's dilemma. The genetic algorithm consists of three parts which are run on the population after a round of competition. First, 
+                the selection function picks the most fit subgroup of the population, based either on their total score or record for the round. Next the crossover
+                algorithm combines attributes from each of the fittest "players" with each other to create a new population. Finally, the mutation function introduces
+                random mutations into the attributes of the player population. As multiple rounds or "generations" are simulated, the population slowly converges on a 
+                increasingly optimal solution to the iterated prisoner's dilemma.<br>
+                TODO: Currently the simulation portion of the project is completed, in the future I would like to add a UI which would allow the user to change simulation parameters, 
+                visualize a given player objects solution against another, add their own solution to the population, and see a visualization of the population trends as their simulation runs
+                <br>
+                <br>
+                <b> Goals: </b>Learn about genetic algorithms and their implementation, Learn about integrating UIs with a python script (future), I just think this project is cool and wanted to work on it.<br>
+                <b>Technologies Used: </b> Python, More coming in future improvements!  <br>
+                <a href="https://github.com/DaelonShockley/NPD-Genetic-Simulation" target="_blank">Github</a>
+            </p>
+        </section>
+        <section class="project shadow">
             <h1>CypherStore: Password Generation and Storage App</h1>
             <p>CypherStore is a simple and secure password management application which allows users to generate secure passwords, as well as store and encrypt their login
                 information locally. This application features AES encryption to allow secure storage of login information on device. Passwords are generated using a secure 
@@ -39,6 +56,7 @@
                 <a href="https://github.com/DaelonShockley/DaelonShockleyWebsite" target="_blank">Github</a>
             </p>
         </section>
+        
         <script>
             document.addEventListener("DOMContentLoaded", () => {
                 const sections = document.querySelectorAll("section");
